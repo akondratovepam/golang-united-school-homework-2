@@ -25,7 +25,7 @@ func CalcSquare(sideLen float64, sidesNum sidesNum) float64 {
 		return math.Pi * math.Pow(sideLen, 2)
 	case 3:
 		// equilateral triangle
-		return math.Sqrt(3) / 2 * math.Pow(sideLen, 2)
+		return math.Sqrt(3) / 4 * math.Pow(sideLen, 2)
 	case 4:
 		// square
 		return math.Pow(sideLen, 2)
